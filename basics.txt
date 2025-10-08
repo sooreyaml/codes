@@ -1,0 +1,20 @@
+This code defines a ServiceDetailListPage widget for displaying service details of a vendor.
+Key Components.
+Uses ConsumerWidget from Riverpod for state management.
+Takes VendorModel and ServiceModel as input.
+Builds a custom scrollable page with vendor information
+Page Structure.
+Shows vendor name, address, and operating hours.
+Displays services in a list view.
+Handles empty service scenarios with a conditional rendering.
+List Item Features.
+Each service shows.
+Service name (hardcoded as "T-Shirt" in this snippet).
+Price per item.
+Quantity dropdown (0-10).
+UI Observations.
+Uses custom components like BaseText, CustomDropDownComponent.
+Applies conditional rendering for empty/populated service lists.
+Implements responsive design with CustomScrollView.
+Potential Improvement: The hardcoded "T-Shirt" suggests this might be a placeholder and needs dynamic service rendering from serviceModel.
+Note: There's a logic error in the condition serviceModel!.isNotEmpty || serviceModel == null which seems incorrect and might need review.
