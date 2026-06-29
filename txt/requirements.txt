@@ -1,0 +1,10 @@
+solana
+solders
+docx2pdf
+python_docx
+PyMuPDF
+playwright
+pydantic
+pydantic
+pydantic[email]
+pydantic-settings

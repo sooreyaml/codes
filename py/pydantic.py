@@ -1,7 +1,5 @@
 # pydantic is used for data validation
 from pydantic import BaseModel
-from typing import list
-
 
 class User(BaseModel):
     id: int
